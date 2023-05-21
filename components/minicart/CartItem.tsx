@@ -3,6 +3,7 @@ import Icon from "$store/components/ui/Icon.tsx";
 import Button from "$store/components/ui/Button.tsx";
 import QuantitySelector from "$store/components/ui/QuantitySelector.tsx";
 import { useCart } from "deco-sites/std/packs/vtex/hooks/useCart.ts";
+import resizeImage from "../../sdk/cart/resizeImage.ts";
 import { formatPrice } from "$store/sdk/format.ts";
 import { AnalyticsEvent } from "deco-sites/std/commerce/types.ts";
 import { sendEvent } from "$store/sdk/analytics.tsx";
@@ -38,7 +39,7 @@ function CartItem({ index }: Props) {
   return (
     <div class="flex flex-row justify-between items-start gap-4">
       <Image
-        src={imageUrl}
+        src={resizeImage(imageUrl)}
         alt={skuName}
         width={108}
         height={150}
