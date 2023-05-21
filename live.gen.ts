@@ -23,15 +23,17 @@ import * as $$$$$$$$2 from "./sections/ProductShelf.tsx";
 import * as $$$$$$$$3 from "./sections/Highlights.tsx";
 import * as $$$$$$$$4 from "./sections/CookieConsent.tsx";
 import * as $$$$$$$$5 from "./sections/Header.tsx";
-import * as $$$$$$$$6 from "./sections/Footer.tsx";
-import * as $$$$$$$$7 from "./sections/SearchResult.tsx";
-import * as $$$$$$$$8 from "./sections/Carousel.tsx";
-import * as $$$$$$$$9 from "./sections/WishlistGallery.tsx";
-import * as $$$$$$$$10 from "./sections/DesignSystem.tsx";
-import * as $$$$$$$$11 from "./sections/BannerPLP.tsx";
-import * as $$$$$$$$12 from "./sections/WhatsApp.tsx";
-import * as $$$$$$$$13 from "./sections/Features.tsx";
-import * as $$$$$$$$14 from "./sections/LinkTree.tsx";
+import * as $$$$$$$$6 from "./sections/FAQ-Quelvito.tsx";
+import * as $$$$$$$$7 from "./sections/Footer.tsx";
+import * as $$$$$$$$8 from "./sections/SearchResult.tsx";
+import * as $$$$$$$$9 from "./sections/Carousel.tsx";
+import * as $$$$$$$$10 from "./sections/WishlistGallery.tsx";
+import * as $$$$$$$$11 from "./sections/Benefits.tsx";
+import * as $$$$$$$$12 from "./sections/DesignSystem.tsx";
+import * as $$$$$$$$13 from "./sections/BannerPLP.tsx";
+import * as $$$$$$$$14 from "./sections/WhatsApp.tsx";
+import * as $$$$$$$$15 from "./sections/Features.tsx";
+import * as $$$$$$$$16 from "./sections/LinkTree.tsx";
 import * as $live_middleware from "$live/routes/_middleware.ts";
 import * as $live_workbench from "$live/routes/live/workbench.ts";
 import * as $live_invoke from "$live/routes/live/invoke/index.ts";
@@ -172,20 +174,22 @@ const manifest = {
     "$live/sections/Slot.tsx": i2$$$$1,
     "$live/sections/UseSlot.tsx": i2$$$$2,
     "deco-sites/athleisure-zone/sections/BannerGrid.tsx": $$$$$$$$0,
-    "deco-sites/athleisure-zone/sections/BannerPLP.tsx": $$$$$$$$11,
-    "deco-sites/athleisure-zone/sections/Carousel.tsx": $$$$$$$$8,
+    "deco-sites/athleisure-zone/sections/BannerPLP.tsx": $$$$$$$$13,
+    "deco-sites/athleisure-zone/sections/Benefits.tsx": $$$$$$$$11,
+    "deco-sites/athleisure-zone/sections/Carousel.tsx": $$$$$$$$9,
     "deco-sites/athleisure-zone/sections/CookieConsent.tsx": $$$$$$$$4,
-    "deco-sites/athleisure-zone/sections/DesignSystem.tsx": $$$$$$$$10,
-    "deco-sites/athleisure-zone/sections/Features.tsx": $$$$$$$$13,
-    "deco-sites/athleisure-zone/sections/Footer.tsx": $$$$$$$$6,
+    "deco-sites/athleisure-zone/sections/DesignSystem.tsx": $$$$$$$$12,
+    "deco-sites/athleisure-zone/sections/FAQ-Quelvito.tsx": $$$$$$$$6,
+    "deco-sites/athleisure-zone/sections/Features.tsx": $$$$$$$$15,
+    "deco-sites/athleisure-zone/sections/Footer.tsx": $$$$$$$$7,
     "deco-sites/athleisure-zone/sections/Header.tsx": $$$$$$$$5,
     "deco-sites/athleisure-zone/sections/Highlights.tsx": $$$$$$$$3,
-    "deco-sites/athleisure-zone/sections/LinkTree.tsx": $$$$$$$$14,
+    "deco-sites/athleisure-zone/sections/LinkTree.tsx": $$$$$$$$16,
     "deco-sites/athleisure-zone/sections/ProductDetails.tsx": $$$$$$$$1,
     "deco-sites/athleisure-zone/sections/ProductShelf.tsx": $$$$$$$$2,
-    "deco-sites/athleisure-zone/sections/SearchResult.tsx": $$$$$$$$7,
-    "deco-sites/athleisure-zone/sections/WhatsApp.tsx": $$$$$$$$12,
-    "deco-sites/athleisure-zone/sections/WishlistGallery.tsx": $$$$$$$$9,
+    "deco-sites/athleisure-zone/sections/SearchResult.tsx": $$$$$$$$8,
+    "deco-sites/athleisure-zone/sections/WhatsApp.tsx": $$$$$$$$14,
+    "deco-sites/athleisure-zone/sections/WishlistGallery.tsx": $$$$$$$$10,
     "deco-sites/std/sections/Analytics.tsx": i2$$$$3,
     "deco-sites/std/sections/configButterCMS.global.tsx": i2$$$$4,
     "deco-sites/std/sections/configOCC.global.tsx": i2$$$$5,

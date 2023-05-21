@@ -82,9 +82,11 @@
               "$live/sections/UseSlot.tsx",
               "deco-sites/athleisure-zone/sections/BannerGrid.tsx",
               "deco-sites/athleisure-zone/sections/BannerPLP.tsx",
+              "deco-sites/athleisure-zone/sections/Benefits.tsx",
               "deco-sites/athleisure-zone/sections/Carousel.tsx",
               "deco-sites/athleisure-zone/sections/CookieConsent.tsx",
               "deco-sites/athleisure-zone/sections/DesignSystem.tsx",
+              "deco-sites/athleisure-zone/sections/FAQ-Quelvito.tsx",
               "deco-sites/athleisure-zone/sections/Features.tsx",
               "deco-sites/athleisure-zone/sections/Footer.tsx",
               "deco-sites/athleisure-zone/sections/Header.tsx",
@@ -7201,6 +7203,201 @@
       "required": [],
       "title": "deco-sites/athleisure-zone/components/ui/BannerPLP.tsx@Props"
     },
+    "ZGVjby1zaXRlcy9hdGhsZWlzdXJlLXpvbmUvc2VjdGlvbnMvQmVuZWZpdHMudHN4@Props": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string",
+          "title": "Title"
+        },
+        "description": {
+          "type": "string",
+          "title": "Description"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "icon": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "const": "ChevronLeft"
+                  },
+                  {
+                    "type": "string",
+                    "const": "ChevronRight"
+                  },
+                  {
+                    "type": "string",
+                    "const": "ChevronUp"
+                  },
+                  {
+                    "type": "string",
+                    "const": "ChevronDown"
+                  },
+                  {
+                    "type": "string",
+                    "const": "QuestionMarkCircle"
+                  },
+                  {
+                    "type": "string",
+                    "const": "User"
+                  },
+                  {
+                    "type": "string",
+                    "const": "ShoppingCart"
+                  },
+                  {
+                    "type": "string",
+                    "const": "Bars3"
+                  },
+                  {
+                    "type": "string",
+                    "const": "Heart"
+                  },
+                  {
+                    "type": "string",
+                    "const": "MagnifyingGlass"
+                  },
+                  {
+                    "type": "string",
+                    "const": "XMark"
+                  },
+                  {
+                    "type": "string",
+                    "const": "Plus"
+                  },
+                  {
+                    "type": "string",
+                    "const": "Minus"
+                  },
+                  {
+                    "type": "string",
+                    "const": "MapPin"
+                  },
+                  {
+                    "type": "string",
+                    "const": "Phone"
+                  },
+                  {
+                    "type": "string",
+                    "const": "Elo"
+                  },
+                  {
+                    "type": "string",
+                    "const": "Mastercard"
+                  },
+                  {
+                    "type": "string",
+                    "const": "Visa"
+                  },
+                  {
+                    "type": "string",
+                    "const": "Pix"
+                  },
+                  {
+                    "type": "string",
+                    "const": "Logo"
+                  },
+                  {
+                    "type": "string",
+                    "const": "Facebook"
+                  },
+                  {
+                    "type": "string",
+                    "const": "Instagram"
+                  },
+                  {
+                    "type": "string",
+                    "const": "Tiktok"
+                  },
+                  {
+                    "type": "string",
+                    "const": "Truck"
+                  },
+                  {
+                    "type": "string",
+                    "const": "Discount"
+                  },
+                  {
+                    "type": "string",
+                    "const": "Return"
+                  },
+                  {
+                    "type": "string",
+                    "const": "CreditCard"
+                  },
+                  {
+                    "type": "string",
+                    "const": "Deco"
+                  },
+                  {
+                    "type": "string",
+                    "const": "Discord"
+                  },
+                  {
+                    "type": "string",
+                    "const": "Trash"
+                  },
+                  {
+                    "type": "string",
+                    "const": "FilterList"
+                  },
+                  {
+                    "type": "string",
+                    "const": "WhatsApp"
+                  },
+                  {
+                    "type": "string",
+                    "const": "ArrowsPointingOut"
+                  },
+                  {
+                    "type": "string",
+                    "const": "Nike"
+                  },
+                  {
+                    "type": "string",
+                    "const": "Adidas"
+                  },
+                  {
+                    "type": "string",
+                    "const": "Puma"
+                  },
+                  {
+                    "type": "string",
+                    "const": "Fila"
+                  }
+                ],
+                "type": "string",
+                "title": "Icon"
+              },
+              "title": {
+                "type": "string",
+                "title": "Title"
+              },
+              "description": {
+                "type": "string",
+                "title": "Description"
+              }
+            },
+            "required": [
+              "icon",
+              "title",
+              "description"
+            ]
+          },
+          "title": "Items"
+        }
+      },
+      "required": [
+        "title",
+        "description",
+        "items"
+      ],
+      "title": "deco-sites/athleisure-zone/sections/Benefits.tsx@Props"
+    },
     "ZGVjby1zaXRlcy9hdGhsZWlzdXJlLXpvbmUvY29tcG9uZW50cy91aS9CYW5uZXJDYXJvdXNlbC50c3g=@Banner": {
       "type": "object",
       "properties": {
@@ -7636,6 +7833,52 @@
       "required": [],
       "title": "deco-sites/athleisure-zone/sections/DesignSystem.tsx@Props"
     },
+    "ZGVjby1zaXRlcy9hdGhsZWlzdXJlLXpvbmUvc2VjdGlvbnMvRkFRLVF1ZWx2aXRvLnRzeA==@Props": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "title": "Title"
+        },
+        "describe": {
+          "type": "string",
+          "title": "Describe"
+        },
+        "callToActionTitle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "title": "Call To Action Title"
+        },
+        "callToActionDescribe": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "title": "Call To Action Describe"
+        },
+        "question": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "title": "Question"
+        },
+        "answer": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "title": "Answer"
+        }
+      },
+      "required": [
+        "describe",
+        "question",
+        "answer"
+      ],
+      "title": "deco-sites/athleisure-zone/sections/FAQ-Quelvito.tsx@Props"
+    },
     "ZGVjby1zaXRlcy9hdGhsZWlzdXJlLXpvbmUvY29tcG9uZW50cy91aS9GZWF0dXJlcy50c3g=@Feature": {
       "type": "object",
       "properties": {
@@ -7772,6 +8015,22 @@
             {
               "type": "string",
               "const": "ArrowsPointingOut"
+            },
+            {
+              "type": "string",
+              "const": "Nike"
+            },
+            {
+              "type": "string",
+              "const": "Adidas"
+            },
+            {
+              "type": "string",
+              "const": "Puma"
+            },
+            {
+              "type": "string",
+              "const": "Fila"
             }
           ],
           "type": "string",
@@ -7970,6 +8229,22 @@
             {
               "type": "string",
               "const": "ArrowsPointingOut"
+            },
+            {
+              "type": "string",
+              "const": "Nike"
+            },
+            {
+              "type": "string",
+              "const": "Adidas"
+            },
+            {
+              "type": "string",
+              "const": "Puma"
+            },
+            {
+              "type": "string",
+              "const": "Fila"
             }
           ],
           "type": "string",
@@ -10850,6 +11125,27 @@
         }
       }
     },
+    "ZGVjby1zaXRlcy9hdGhsZWlzdXJlLXpvbmUvc2VjdGlvbnMvQmVuZWZpdHMudHN4": {
+      "title": "deco-sites/athleisure-zone/sections/Benefits.tsx",
+      "type": "object",
+      "allOf": [
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9hdGhsZWlzdXJlLXpvbmUvc2VjdGlvbnMvQmVuZWZpdHMudHN4@Props"
+        }
+      ],
+      "required": [
+        "__resolveType"
+      ],
+      "properties": {
+        "__resolveType": {
+          "type": "string",
+          "enum": [
+            "deco-sites/athleisure-zone/sections/Benefits.tsx"
+          ],
+          "default": "deco-sites/athleisure-zone/sections/Benefits.tsx"
+        }
+      }
+    },
     "ZGVjby1zaXRlcy9hdGhsZWlzdXJlLXpvbmUvc2VjdGlvbnMvQ2Fyb3VzZWwudHN4": {
       "title": "deco-sites/athleisure-zone/sections/Carousel.tsx",
       "type": "object",
@@ -10905,6 +11201,27 @@
             "deco-sites/athleisure-zone/sections/DesignSystem.tsx"
           ],
           "default": "deco-sites/athleisure-zone/sections/DesignSystem.tsx"
+        }
+      }
+    },
+    "ZGVjby1zaXRlcy9hdGhsZWlzdXJlLXpvbmUvc2VjdGlvbnMvRkFRLVF1ZWx2aXRvLnRzeA==": {
+      "title": "deco-sites/athleisure-zone/sections/FAQ-Quelvito.tsx",
+      "type": "object",
+      "allOf": [
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9hdGhsZWlzdXJlLXpvbmUvc2VjdGlvbnMvRkFRLVF1ZWx2aXRvLnRzeA==@Props"
+        }
+      ],
+      "required": [
+        "__resolveType"
+      ],
+      "properties": {
+        "__resolveType": {
+          "type": "string",
+          "enum": [
+            "deco-sites/athleisure-zone/sections/FAQ-Quelvito.tsx"
+          ],
+          "default": "deco-sites/athleisure-zone/sections/FAQ-Quelvito.tsx"
         }
       }
     },
@@ -12249,6 +12566,9 @@
           "$ref": "#/definitions/ZGVjby1zaXRlcy9hdGhsZWlzdXJlLXpvbmUvc2VjdGlvbnMvQmFubmVyUExQLnRzeA=="
         },
         {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9hdGhsZWlzdXJlLXpvbmUvc2VjdGlvbnMvQmVuZWZpdHMudHN4"
+        },
+        {
           "$ref": "#/definitions/ZGVjby1zaXRlcy9hdGhsZWlzdXJlLXpvbmUvc2VjdGlvbnMvQ2Fyb3VzZWwudHN4"
         },
         {
@@ -12256,6 +12576,9 @@
         },
         {
           "$ref": "#/definitions/ZGVjby1zaXRlcy9hdGhsZWlzdXJlLXpvbmUvc2VjdGlvbnMvRGVzaWduU3lzdGVtLnRzeA=="
+        },
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9hdGhsZWlzdXJlLXpvbmUvc2VjdGlvbnMvRkFRLVF1ZWx2aXRvLnRzeA=="
         },
         {
           "$ref": "#/definitions/ZGVjby1zaXRlcy9hdGhsZWlzdXJlLXpvbmUvc2VjdGlvbnMvRmVhdHVyZXMudHN4"
