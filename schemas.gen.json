@@ -86,6 +86,7 @@
               "deco-sites/athleisure-zone/sections/Carousel.tsx",
               "deco-sites/athleisure-zone/sections/CookieConsent.tsx",
               "deco-sites/athleisure-zone/sections/DesignSystem.tsx",
+              "deco-sites/athleisure-zone/sections/FAQ-Quelvito.tsx",
               "deco-sites/athleisure-zone/sections/Features.tsx",
               "deco-sites/athleisure-zone/sections/Footer.tsx",
               "deco-sites/athleisure-zone/sections/Header.tsx",
@@ -7832,6 +7833,56 @@
       "required": [],
       "title": "deco-sites/athleisure-zone/sections/DesignSystem.tsx@Props"
     },
+    "ZGVjby1zaXRlcy9hdGhsZWlzdXJlLXpvbmUvc2VjdGlvbnMvRkFRLVF1ZWx2aXRvLnRzeA==@Props": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "title": "Title"
+        },
+        "describe": {
+          "type": "string",
+          "title": "Describe"
+        },
+        "callToActionTitle": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "title": "Call To Action Title"
+        },
+        "callToActionDescribe": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "title": "Call To Action Describe"
+        },
+        "question": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "title": "Question"
+        },
+        "answer": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "title": "Answer"
+        }
+      },
+      "required": [
+        "describe",
+        "question",
+        "answer"
+      ],
+      "title": "deco-sites/athleisure-zone/sections/FAQ-Quelvito.tsx@Props"
+    },
     "ZGVjby1zaXRlcy9hdGhsZWlzdXJlLXpvbmUvY29tcG9uZW50cy91aS9GZWF0dXJlcy50c3g=@Feature": {
       "type": "object",
       "properties": {
@@ -11157,6 +11208,27 @@
         }
       }
     },
+    "ZGVjby1zaXRlcy9hdGhsZWlzdXJlLXpvbmUvc2VjdGlvbnMvRkFRLVF1ZWx2aXRvLnRzeA==": {
+      "title": "deco-sites/athleisure-zone/sections/FAQ-Quelvito.tsx",
+      "type": "object",
+      "allOf": [
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9hdGhsZWlzdXJlLXpvbmUvc2VjdGlvbnMvRkFRLVF1ZWx2aXRvLnRzeA==@Props"
+        }
+      ],
+      "required": [
+        "__resolveType"
+      ],
+      "properties": {
+        "__resolveType": {
+          "type": "string",
+          "enum": [
+            "deco-sites/athleisure-zone/sections/FAQ-Quelvito.tsx"
+          ],
+          "default": "deco-sites/athleisure-zone/sections/FAQ-Quelvito.tsx"
+        }
+      }
+    },
     "ZGVjby1zaXRlcy9hdGhsZWlzdXJlLXpvbmUvc2VjdGlvbnMvRmVhdHVyZXMudHN4": {
       "title": "deco-sites/athleisure-zone/sections/Features.tsx",
       "type": "object",
@@ -12508,6 +12580,9 @@
         },
         {
           "$ref": "#/definitions/ZGVjby1zaXRlcy9hdGhsZWlzdXJlLXpvbmUvc2VjdGlvbnMvRGVzaWduU3lzdGVtLnRzeA=="
+        },
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy9hdGhsZWlzdXJlLXpvbmUvc2VjdGlvbnMvRkFRLVF1ZWx2aXRvLnRzeA=="
         },
         {
           "$ref": "#/definitions/ZGVjby1zaXRlcy9hdGhsZWlzdXJlLXpvbmUvc2VjdGlvbnMvRmVhdHVyZXMudHN4"
