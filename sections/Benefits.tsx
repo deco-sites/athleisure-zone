@@ -34,15 +34,15 @@ export default function Benefits(
                 key={title}
               >
                 <Icon id={id} width={40} height={40} strokeWidth={1} />
-<div class="text-center">
-<h3 class="text-xl">{title}</h3>
-<p class="text-sm text-neutral-400">{description}</p>
-</div>
-</div>
-))}
-</div>
-</div>
-</div>
-</div>
-);
+                <div class="text-center">
+                  <h3 class="text-xl">{title}</h3>
+                  <p class="text-sm text-neutral-400">{description}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
