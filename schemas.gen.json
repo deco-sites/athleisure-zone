@@ -7351,6 +7351,22 @@
                   {
                     "type": "string",
                     "const": "ArrowsPointingOut"
+                  },
+                  {
+                    "type": "string",
+                    "const": "Nike"
+                  },
+                  {
+                    "type": "string",
+                    "const": "Adidas"
+                  },
+                  {
+                    "type": "string",
+                    "const": "Puma"
+                  },
+                  {
+                    "type": "string",
+                    "const": "Fila"
                   }
                 ],
                 "type": "string",
@@ -7952,6 +7968,22 @@
             {
               "type": "string",
               "const": "ArrowsPointingOut"
+            },
+            {
+              "type": "string",
+              "const": "Nike"
+            },
+            {
+              "type": "string",
+              "const": "Adidas"
+            },
+            {
+              "type": "string",
+              "const": "Puma"
+            },
+            {
+              "type": "string",
+              "const": "Fila"
             }
           ],
           "type": "string",
@@ -8150,6 +8182,22 @@
             {
               "type": "string",
               "const": "ArrowsPointingOut"
+            },
+            {
+              "type": "string",
+              "const": "Nike"
+            },
+            {
+              "type": "string",
+              "const": "Adidas"
+            },
+            {
+              "type": "string",
+              "const": "Puma"
+            },
+            {
+              "type": "string",
+              "const": "Fila"
             }
           ],
           "type": "string",
